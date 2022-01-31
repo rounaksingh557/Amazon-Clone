@@ -1,4 +1,7 @@
+// Modules Import
 import React from "react";
+
+// Files Import
 import "../Styles/Header.css";
 
 function Header() {
