@@ -1,10 +1,23 @@
+// Modules Import
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 // Files Import
+import Header from "./components/Header";
 import "./Styles/App.css";
 
+/**
+ * This Files Contains Routing System of Amazon Clone.
+ *
+ * ⚠️Note: `react-router-dom version` `6.2.1` is used in this project and may change it the future.
+ */
+
 export default function App() {
-  return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
-  );
+  <div className="App">
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Header />} />
+      </Routes>
+    </BrowserRouter>
+  </div>;
 }

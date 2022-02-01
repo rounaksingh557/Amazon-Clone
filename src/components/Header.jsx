@@ -6,6 +6,13 @@ import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 // Files Import
 import "../Styles/Header.css";
 
+/**
+ * This is header of Amazon Clone.
+ *
+ *
+ * It Contains the Input Bar, Icons and Amazon Logo Present in the Header.
+ */
+
 export default function Header() {
   return (
     <div className="header">
