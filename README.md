@@ -83,7 +83,7 @@ It is a clone of Amazon with backend support also has payment functionalities.
 
 Here are the list of technologies that I am using.
 
-- [React.js](https://reactjs.org/)
+- [ReactJs](https://reactjs.org/)
 - [Firebase](https://firebase.google.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
