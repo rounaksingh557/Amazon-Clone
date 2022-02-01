@@ -10,6 +10,8 @@ import "./Styles/App.css";
  * This Files Contains Routing System of Amazon Clone.
  *
  * ⚠️Note: `react-router-dom version` `6.2.1` is used in this project and may change it the future.
+ *
+ * @see https://reactrouter.com/docs/en/v6/upgrading/v5
  */
 
 export default function App() {
