@@ -15,6 +15,12 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
+- ⚠️Note: This Readme don't contain instruction for Firebase Setup will be added later.
+
+- Final Build Screenshot will be added after sending to production
+
+- Special Thanks to Rafe Qazi and Sunny Sangha from [Clever Programmer](https://cleverprogrammer.com)
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -136,9 +142,10 @@ You can add any feature you. Usage Instruction as per [MIT License](https://gith
 - [✒️] Work on Components.
 - [✒️] Complete UI.
 - [✒️] Make Document based on Component.
-- [✒️] Firebase and Backend Work
+- [✒️] Firebase and Backend Work.
+- [✒️] Upload The final Build.
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/rounaksingh557/Amazone-Clone/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
