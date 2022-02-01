@@ -21,6 +21,8 @@
 
 - Special Thanks to Rafe Qazi and Sunny Sangha from [Clever Programmer](https://cleverprogrammer.com)
 
+- Also thanks to [Othneildrew](https://github.com/othneildrew) for readme template
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
