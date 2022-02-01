@@ -24,7 +24,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/rounaksingh557/Amazone-Clone">
+  <a href="https://github.com/rounaksingh557/Amazon-Clone">
     <img src="https://wallpapercave.com/wp/wp7771224.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -33,13 +33,13 @@
   <p align="center">
     A Clone of Amazon with backend support made using ReactJs and Firebase.
     <br />
-    <a href="https://github.com/rounaksingh557/Amazone-Clone#readme"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/rounaksingh557/Amazon-Clone#readme"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     -
-    <a href="https://github.com/rounaksingh557/Amazone-Clone/issues">Report Bug</a>
+    <a href="https://github.com/rounaksingh557/Amazon-Clone/issues">Report Bug</a>
     -
-    <a href="https://github.com/rounaksingh557/Amazone-Clone/issues">Request Feature</a>
+    <a href="https://github.com/rounaksingh557/Amazon-Clone/issues">Request Feature</a>
   </p>
 </div>
 
@@ -73,7 +73,7 @@
 
 ## About The Project
 
-It is a clone of Amazone with backend support also has payment functionalities.
+It is a clone of Amazon with backend support also has payment functionalities.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -109,7 +109,7 @@ Follow these steps to run the project in the local development environment.
 
 1. Clone the repo
    ```sh
-   git clone git@github.com:rounaksingh557/Amazone-Clone.git
+   git clone git@github.com:rounaksingh557/Amazon-Clone.git
    ```
 1. Install Yarn packages
    ```sh
@@ -128,7 +128,7 @@ Follow these steps to run the project in the local development environment.
 
 ## Usage
 
-You can add any feature you. Usage Instruction as per [MIT License](https://github.com/rounaksingh557/Amazone-Clone/blob/master/LICENSE.txt)
+You can add any feature you. Usage Instruction as per [MIT License](https://github.com/rounaksingh557/Amazon-Clone/blob/master/LICENSE.txt)
 
 <!-- ROADMAP -->
 
@@ -145,7 +145,7 @@ You can add any feature you. Usage Instruction as per [MIT License](https://gith
 - [✒️] Firebase and Backend Work.
 - [✒️] Upload The final Build.
 
-See the [open issues](https://github.com/rounaksingh557/Amazone-Clone/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/rounaksingh557/Amazon-Clone/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -180,7 +180,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Rounak Singh - rounaksingh9431738764@gmail.com
 
-Project Link: [https://github.com/rounaksingh557/Amazone-Clone](https://github.com/rounaksingh557/Amazone-Clone)
+Project Link: [https://github.com/rounaksingh557/Amazon-Clone](https://github.com/rounaksingh557/Amazon-Clone)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -204,13 +204,13 @@ Thanks for checking my project. Take a look at these references.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/rounaksingh557/Amazone-Clone.svg?style=for-the-badge
-[contributors-url]: https://github.com/rounaksingh557/Amazone-Clone/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/rounaksingh557/Amazone-Clone.svg?style=for-the-badge
-[forks-url]: https://github.com/rounaksingh557/Amazone-Clone/network/members
-[stars-shield]: https://img.shields.io/github/stars/rounaksingh557/Amazone-Clone.svg?style=for-the-badge
-[stars-url]: https://github.com/rounaksingh557/Amazone-Clone/stargazers
-[issues-shield]: https://img.shields.io/github/issues/rounaksingh557/Amazone-Clone.svg?style=for-the-badge
-[issues-url]: https://github.com/rounaksingh557/Amazone-Clone/issues
-[license-shield]: https://img.shields.io/github/license/rounaksingh557/Amazone-Clone.svg?style=for-the-badge
-[license-url]: https://github.com/rounaksingh557/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/rounaksingh557/Amazon-Clone.svg?style=for-the-badge
+[contributors-url]: https://github.com/rounaksingh557/Amazon-Clone/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/rounaksingh557/Amazon-Clone.svg?style=for-the-badge
+[forks-url]: https://github.com/rounaksingh557/Amazon-Clone/network/members
+[stars-shield]: https://img.shields.io/github/stars/rounaksingh557/Amazon-Clone.svg?style=for-the-badge
+[stars-url]: https://github.com/rounaksingh557/Amazon-Clone/stargazers
+[issues-shield]: https://img.shields.io/github/issues/rounaksingh557/Amazon-Clone.svg?style=for-the-badge
+[issues-url]: https://github.com/rounaksingh557/Amazon-Clone/issues
+[license-shield]: https://img.shields.io/github/license/rounaksingh557/Amazon-Clone.svg?style=for-the-badge
+[license-url]: https://github.com/rounaksingh557/Amazon-Clone/blob/master/LICENSE.txt
