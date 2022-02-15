@@ -7,6 +7,10 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./Styles/index.css";
 
+/**
+ * This is the main entry point of the application.
+ */
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

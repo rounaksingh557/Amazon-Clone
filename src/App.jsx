@@ -15,11 +15,13 @@ import "./Styles/App.css";
  */
 
 export default function App() {
-  <div className="App">
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Header />} />
-      </Routes>
-    </BrowserRouter>
-  </div>;
+  return (
+    <div className="App">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Header />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
 }
