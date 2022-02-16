@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // Files Import
 import Header from "./components/Header";
+import Home from "./components/Home";
 import "./Styles/App.css";
 
 /**
@@ -20,6 +21,9 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Header />} />
+        </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>
