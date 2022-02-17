@@ -27,6 +27,8 @@
 
 - Please visit [security](https://github.com/rounaksingh557/Amazon-Clone/security/policy) section for more information about security
 
+- check contributing.md [here](https://github.com/rounaksingh557/Amazon-Clone/blob/master/CONTRIBUTING.md)
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
