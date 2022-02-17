@@ -25,6 +25,8 @@
 
 - Also thanks to [Othneildrew](https://github.com/othneildrew) for readme template
 
+- Please visit [security](https://github.com/rounaksingh557/Amazon-Clone/security/policy) section for more information about security
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
