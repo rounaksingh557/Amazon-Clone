@@ -31,6 +31,8 @@
 
 - Visit Code of Conduct [here](https://github.com/rounaksingh557/Amazon-Clone/blob/master/CODE_OF_CONDUCT.md)
 
+- Read the pull request template [here](https://github.com/rounaksingh557/Amazon-Clone/blob/master/.github/Pull_request_template.md)
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
