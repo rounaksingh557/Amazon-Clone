@@ -29,6 +29,8 @@
 
 - check contributing.md [here](https://github.com/rounaksingh557/Amazon-Clone/blob/master/CONTRIBUTING.md)
 
+- Visit Code of Conduct [here](https://github.com/rounaksingh557/Amazon-Clone/blob/master/CODE_OF_CONDUCT.md)
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
