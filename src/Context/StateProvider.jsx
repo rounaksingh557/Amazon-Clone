@@ -1,14 +1,15 @@
 import React, { createContext, useContext, useReducer } from "react";
 
 /**
- * @returns context
+ * @returns context, prepares the data layer.
  */
+
 export const StateContext = createContext();
 
 /**
  *
  * @param {*} param0
- * @returns StateProvider
+ * @returns Wrap our app and provide the data layer.
  */
 
 export const StateProvider = ({ reducer, initialState, children }) => (
@@ -19,7 +20,7 @@ export const StateProvider = ({ reducer, initialState, children }) => (
 
 /**
  *
- * @returns stateContext
+ * @returns Pull information from the data layer.
  */
 
 export const useStateValue = () => useContext(StateContext);

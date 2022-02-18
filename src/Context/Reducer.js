@@ -1,4 +1,7 @@
 /**
+ * This Files Perform task for sending and receiving data from data layer.
+ *
+ *
  * This state is used in the application.
  */
 
@@ -16,8 +19,14 @@ export const initialState = {
 export const getBasketTotal = (basket) =>
   basket?.reduce((amount, item) => item.price + amount, 0);
 
+/**
+ *
+ * @param {*} state
+ * @param {*} action
+ * @returns The Basket info
+ */
+
 const reducer = (state, action) => {
-  console.log(action);
   switch (action.type) {
     case "ADD_TO_BASKET":
       return {
