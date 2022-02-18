@@ -15,7 +15,7 @@ import "../Styles/Header.css";
  */
 
 export default function Header() {
-  const [{ basket }] = useStateValue();
+  const [{ basket, user }, dispatch] = useStateValue();
 
   return (
     <div className="header">
