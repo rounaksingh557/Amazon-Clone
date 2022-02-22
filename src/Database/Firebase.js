@@ -9,5 +9,18 @@ const firebaseConfig = {
  *
  * using firebase version `8.7.1`.
  */
-firebase.initializeApp(firebaseConfig);
-export default firebase;
+const firebaseApp = firebase.initializeApp(firebaseConfig);
+
+/**
+ * let's access the firebase database.
+ */
+
+const db = firebaseApp.firestore();
+
+/**
+ * creates google authentication
+ */
+
+const auth = firebase.auth();
+
+export { db, auth };
