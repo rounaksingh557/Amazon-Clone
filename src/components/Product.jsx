@@ -3,6 +3,8 @@ import React from "react";
 
 // Files Import
 import { useStateValue } from "../Context/StateProvider";
+
+// Styles Import
 import "../Styles/Product.css";
 
 export default function Product({ id, title, image, price, rating }) {

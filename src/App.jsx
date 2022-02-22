@@ -5,6 +5,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // Files Import
 import Header from "./components/Header";
 import Home from "./components/Home";
+import Login from "./components/Login";
+
+// Styles Import
 import "./Styles/App.css";
 
 /**
@@ -24,6 +27,9 @@ export default function App() {
         </Routes>
         <Routes>
           <Route path="/" element={<Home />} />
+        </Routes>
+        <Routes>
+          <Route path="/login" element={<Login />} />
         </Routes>
       </BrowserRouter>
     </div>

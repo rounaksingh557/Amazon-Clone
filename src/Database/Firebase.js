@@ -21,6 +21,6 @@ const db = firebaseApp.firestore();
  * creates google authentication
  */
 
-const auth = firebase.auth();
+const auth = firebaseApp.auth();
 
 export { db, auth };

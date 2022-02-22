@@ -15,7 +15,6 @@ const firebaseConfig = {
  *
  * using firebase version `8.7.1`.
  */
-
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 
 /**
@@ -28,6 +27,6 @@ const db = firebaseApp.firestore();
  * creates google authentication
  */
 
-const auth = firebase.auth();
+const auth = firebaseApp.auth();
 
 export { db, auth };

@@ -7,6 +7,8 @@ import { StateProvider } from "./Context/StateProvider";
 import App from "./App";
 import reducer, { initialState } from "./Context/Reducer";
 import reportWebVitals from "./reportWebVitals";
+
+// Styles Import
 import "./Styles/index.css";
 
 /**

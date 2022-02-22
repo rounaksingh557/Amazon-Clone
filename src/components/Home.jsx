@@ -1,9 +1,11 @@
-// Module Import
+// Modules Import
 import React from "react";
 
 // Files Import
-import "../Styles/Home.css";
 import Product from "./Product";
+
+// Styles Import
+import "../Styles/Home.css";
 
 /**
  *

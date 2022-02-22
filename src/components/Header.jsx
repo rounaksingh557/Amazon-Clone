@@ -5,6 +5,8 @@ import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 
 // Files Import
 import { useStateValue } from "../Context/StateProvider";
+
+// Styles Import
 import "../Styles/Header.css";
 
 /**
