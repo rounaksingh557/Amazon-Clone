@@ -1,13 +1,41 @@
 // Modules Import
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+
+// Files Import
+import { auth } from "../Database/FirebaseConfig";
 
 // Styles Import
 import "../Styles/Login.css";
+import Header from "./Header";
 
 export default function Login() {
+  const history = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
+  const signIn = (e) => {
+    e.preventDefault();
+    auth
+      .signInWithEmailAndPassword(email, password)
+      .then((auth) => {
+        history("/");
+      })
+      .catch((error) => alert(error.message));
+  };
+
+  const register = (e) => {
+    e.preventDefault();
+    auth
+      .createUserWithEmailAndPassword(email, password)
+      .then((auth) => {
+        console.log(auth);
+        if (auth) {
+          history("/");
+        }
+      })
+      .catch((error) => alert(error.message));
+  };
 
   return (
     <div className="login">
@@ -35,7 +63,11 @@ export default function Login() {
             onChange={(e) => setPassword(e.target.value)}
           />
 
-          <button type="submit" className="login__signInButton">
+          <button
+            type="submit"
+            className="login__signInButton"
+            onClick={signIn}
+          >
             Sign In
           </button>
         </form>
@@ -44,7 +76,7 @@ export default function Login() {
           Sale. Please see our Privacy Notice, our Cookies Notice and our
           Interest-Based Ads Notice.
         </p>
-        <button className="login__registerButton">
+        <button className="login__registerButton" onClick={register}>
           Create your Amazon Account
         </button>
       </div>
