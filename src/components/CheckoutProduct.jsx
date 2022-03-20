@@ -50,7 +50,7 @@ export default function CheckoutProduct({
             Remove from Basket
           </Button>
         )}
-        {<ToastContainer />}
+        <ToastContainer />
       </div>
     </div>
   );

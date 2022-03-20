@@ -4,8 +4,22 @@ export const initialState = {
   drawer: false,
 };
 
+/**
+ *
+ * @param {*} basket
+ * @returns Calculates the total item in basket and then returns the components to checkout page
+ */
+
 export const getBasketTotal = (basket) =>
   basket?.reduce((amount, item) => item.price + amount, 0);
+
+
+/**
+ * 
+ * @param {*} state 
+ * @param {*} action 
+ * @returns cases which are used to perform various actions on the different parts of the page.
+ */
 
 const reducer = (state, action) => {
   switch (action.type) {

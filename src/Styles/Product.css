@@ -10,7 +10,7 @@
   min-width: 100px;
   background-color: white;
   z-index: 1;
-  box-shadow: 3px 3px 10px 10px rgba(229, 241, 241, 0.75);
+  box-shadow: 3px 3px 2px 2px rgba(114, 114, 114, 0.75);
 }
 
 /* On product Hover */

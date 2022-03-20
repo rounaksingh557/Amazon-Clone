@@ -7,11 +7,6 @@ import Product from "./Product";
 // Styles Import
 import "../Styles/Home.css";
 
-/**
- *
- * @returns The Home Background of Amazon Clone.
- */
-
 export default function Home() {
   return (
     <div className="home">

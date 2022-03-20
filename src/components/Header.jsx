@@ -11,13 +11,6 @@ import { auth } from "../Database/FirebaseConfig";
 // Styles Import
 import "../Styles/Header.css";
 
-/**
- * This is header of Amazon Clone.
- *
- *
- * It Contains the Input Bar, Icons and Amazon Logo Present in the Header.
- */
-
 export default function Header() {
   const [{ basket, user }, dispatch] = useStateValue();
 
