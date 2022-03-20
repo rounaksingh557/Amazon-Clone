@@ -1,4 +1,5 @@
 // Modules Import
+import { Button } from "@material-ui/core";
 import React from "react";
 import CurrencyFormat from "react-currency-format";
 import { useNavigate } from "react-router-dom";
@@ -33,8 +34,7 @@ function Subtotal() {
         thousandSeparator={true}
         prefix={"$"}
       />
-
-      <button>Proceed to Checkout</button>
+      <Button variant="contained">Proceed to Checkout</Button>
     </div>
   );
 }

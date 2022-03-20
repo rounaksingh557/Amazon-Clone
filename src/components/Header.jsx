@@ -38,7 +38,11 @@ export default function Header() {
       </Link>
 
       <div className="header__search">
-        <input type="text" className="header__searchInput" />
+        <input
+          type="text"
+          className="header__searchInput"
+          placeholder="Search for an item"
+        />
         <SearchIcon className="header__searchIcon" />
       </div>
 

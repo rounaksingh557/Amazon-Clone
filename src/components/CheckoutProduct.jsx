@@ -1,6 +1,7 @@
 // Modules Imports
 import React from "react";
 import { ToastContainer, toast } from "react-toastify";
+import { Button } from "@material-ui/core";
 import "react-toastify/dist/ReactToastify.css";
 
 // Files Import
@@ -24,7 +25,7 @@ export default function CheckoutProduct({
       type: "REMOVE_FROM_BASKET",
       id,
     });
-    toast.success("Item removed from basket");
+    toast.success(title + " " + "removed from basket");
   };
 
   return (
@@ -45,7 +46,9 @@ export default function CheckoutProduct({
             ))}
         </div>
         {!hideButton && (
-          <button onClick={removeFromBasket}>Remove from Basket</button>
+          <Button variant="contained" onClick={removeFromBasket}>
+            Remove from Basket
+          </Button>
         )}
         {<ToastContainer />}
       </div>
