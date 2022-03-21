@@ -1,6 +1,7 @@
 // Modules Import
 import React from "react";
 import Subtotal from "./Subtotal";
+import Flipmove from "react-flip-move";
 
 // Files Import
 import CheckoutProduct from "./CheckoutProduct";
@@ -27,16 +28,21 @@ function Checkout() {
           <div>
             <h3>Hello, {user?.email}</h3>
             <h2 className="checkout__title">Your shopping Basket</h2>
-
-            {basket.map((item) => (
-              <CheckoutProduct
-                id={item.id}
-                title={item.title}
-                image={item.image}
-                price={item.price}
-                rating={item.rating}
-              />
-            ))}
+            <Flipmove
+              easing="ease-out"
+              duration={500}
+              leaveAnimation="elevator"
+            >
+              {basket.map((item) => (
+                <CheckoutProduct
+                  id={item.id}
+                  title={item.title}
+                  image={item.image}
+                  price={item.price}
+                  rating={item.rating}
+                />
+              ))}
+            </Flipmove>
           </div>
         </div>
 

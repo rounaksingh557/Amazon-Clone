@@ -13,11 +13,10 @@ export const initialState = {
 export const getBasketTotal = (basket) =>
   basket?.reduce((amount, item) => item.price + amount, 0);
 
-
 /**
- * 
- * @param {*} state 
- * @param {*} action 
+ *
+ * @param {*} state
+ * @param {*} action
  * @returns cases which are used to perform various actions on the different parts of the page.
  */
 
