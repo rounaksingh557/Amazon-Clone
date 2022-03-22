@@ -11,7 +11,7 @@ import { useStateValue } from "../Context/StateProvider";
 import "../Styles/Product.css";
 import "../Styles/CheckoutProduct.css";
 
-export default function Product({ id, title, image, price, rating, key }) {
+export default function Product({ id, title, image, price, rating }) {
   const [{ basket }, dispatch] = useStateValue();
 
   const addToBasket = () => {
@@ -23,10 +23,8 @@ export default function Product({ id, title, image, price, rating, key }) {
         image: image,
         price: price,
         rating: rating,
-        key: key,
       },
     });
-    console.log(id);
     toast(
       <div
         style={{

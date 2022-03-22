@@ -20,7 +20,6 @@ const CheckoutProduct = React.forwardRef(
         id,
       });
       toast.success(title + " " + "removed from basket");
-      console.log(id);
     };
 
     return (
@@ -45,7 +44,9 @@ const CheckoutProduct = React.forwardRef(
               Remove from Basket
             </Button>
           )}
-          <ToastContainer />
+          <div>
+            <ToastContainer />
+          </div>
         </div>
       </div>
     );
