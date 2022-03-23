@@ -5,11 +5,12 @@ import { v4 as uuid } from "uuid";
 
 // Files Import
 import Product from "./Product";
+import Footer from "./Footer";
 
 // Styles Import
 import "../Styles/Home.css";
 
-export default function Home() {
+function Home() {
   const unique_id = uuid();
 
   const images = [
@@ -26,7 +27,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="home">
+    <div className="home" id="home">
       <div className="home__container">
         <SimpleImageSlider
           images={images}
@@ -87,7 +88,40 @@ export default function Home() {
             image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
           />
         </div>
+        <div className="home__row">
+          <Product
+            id={unique_id}
+            title="Oculus Quest 2 — Advanced All-In-One Virtual Reality Headset — 128 GB"
+            price={294}
+            rating={5}
+            image="https://m.media-amazon.com/images/I/615YaAiA-ML._AC_UL320_.jpg"
+          />
+          <Product
+            id={unique_id}
+            title="Apple iPhone 12 Pro Max, 512GB, Pacific Blue - Unlocked (Renewed Premium)"
+            price={1089}
+            rating={3}
+            image="https://m.media-amazon.com/images/I/71FuI8YvCNL._AC_SX679_.jpg"
+          />
+          <Product
+            id={unique_id}
+            title="2021 Apple MacBook Pro (14-inch, Apple M1 Pro chip with 8‑core CPU and 14‑core GPU, 16GB RAM, 512GB SSD) - Space Gray"
+            price={2499}
+            rating={3}
+            image="https://m.media-amazon.com/images/I/61vFO3R5UNL._AC_SX466_.jpg"
+          />
+          <Product
+            id={unique_id}
+            title="SAMSUNG Galaxy Buds Pro, Bluetooth Earbuds, True Wireless, Noise Cancelling, Charging Case, Quality Sound, Water Resistant, Phantom Black (US Version)"
+            price={129.99}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/31DhF-MYS-L._AC_SR400,600_.jpg"
+          />
+        </div>
+        <Footer />
       </div>
     </div>
   );
 }
+
+export default Home;

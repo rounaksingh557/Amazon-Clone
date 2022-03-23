@@ -1,7 +1,7 @@
 // Modules Import
 import React from "react";
 import SearchIcon from "@material-ui/icons/Search";
-import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
+import ShoppingBasketTwoTone from "@material-ui/icons/ShoppingBasketTwoTone";
 import { Link } from "react-router-dom";
 
 // Files Import
@@ -11,7 +11,7 @@ import { auth } from "../Database/FirebaseConfig";
 // Styles Import
 import "../Styles/Header.css";
 
-export default function Header() {
+function Header() {
   const [{ basket, user }, dispatch] = useStateValue();
 
   const handleAuthentication = () => {
@@ -65,7 +65,7 @@ export default function Header() {
 
         <Link to="/checkout">
           <div className="header__optionBasket">
-            <ShoppingBasketIcon />
+            <ShoppingBasketTwoTone />
             <span className="header__optionLineTwo header__basketCount">
               {basket?.length}
             </span>
@@ -75,3 +75,5 @@ export default function Header() {
     </div>
   );
 }
+
+export default Header;

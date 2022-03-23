@@ -13,7 +13,6 @@
   box-shadow: 3px 3px 2px 2px rgba(114, 114, 114, 0.75);
 }
 
-/* On product Hover */
 .product:hover {
   box-shadow: 7px 7px 20px 20px rgba(0, 0, 0, 0.5);
   cursor: pointer;

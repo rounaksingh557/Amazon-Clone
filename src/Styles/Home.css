@@ -4,6 +4,7 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 1500px;
+  background-color: rgb(203, 206, 197);
 }
 
 /* This is just for refrence */
@@ -20,4 +21,95 @@
   z-index: 1;
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.footer {
+  background: #232f3e;
+  color: rgb(255, 255, 255);
+  height: 500px;
+}
+
+.footer li {
+  list-style-type: none;
+}
+
+.footer a {
+  color: #dddddd;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-lists {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-lists .list-head {
+  font-weight: 650;
+  margin-bottom: 5px;
+}
+
+.boxing-box-1 {
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none solid rgb(101, 107, 123);
+  text-align: left;
+  word-spacing: 0px;
+  height: 179px;
+  width: 174.156px;
+  display: block;
+}
+
+.boxing-box-2 {
+  padding: 30px 0px;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none solid rgb(101, 107, 123);
+  text-align: left;
+  word-spacing: 0px;
+  height: 190px;
+  width: 174.156px;
+  display: block;
+}
+
+.boxing-box-3 {
+  padding: 30px 0px;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none solid rgb(101, 107, 123);
+  text-align: left;
+  word-spacing: 0px;
+  height: 179px;
+  width: 174.156px;
+  display: block;
+}
+
+.boxing-box-4 {
+  padding: 30px 0px;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none solid rgb(101, 107, 123);
+  text-align: left;
+  word-spacing: 0px;
+  height: 179px;
+  width: 174.156px;
+  display: block;
+}
+
+.footer-lists a:hover {
+  color: #3370bb;
+}
+
+.divider {
+  width: 100%;
+  height: 3px;
+  border-top: 1px #ccc solid;
+  margin: 30px 0;
 }

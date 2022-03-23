@@ -11,7 +11,7 @@ import { useStateValue } from "../Context/StateProvider";
 import "../Styles/Product.css";
 import "../Styles/CheckoutProduct.css";
 
-export default function Product({ id, title, image, price, rating }) {
+function Product({ id, title, image, price, rating }) {
   const [{ basket }, dispatch] = useStateValue();
 
   const addToBasket = () => {
@@ -95,3 +95,5 @@ export default function Product({ id, title, image, price, rating }) {
     </div>
   );
 }
+
+export default Product;
