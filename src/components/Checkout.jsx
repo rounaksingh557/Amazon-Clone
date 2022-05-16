@@ -6,10 +6,10 @@ import Flipmove from "react-flip-move";
 // Files Import
 import CheckoutProduct from "./CheckoutProduct";
 import { useStateValue } from "../Context/StateProvider";
+import Header from "./Header";
 
 // Styles Import
 import "../Styles/Checkout.css";
-import Header from "./Header";
 
 function Checkout() {
   const [{ basket, user }, dispatch] = useStateValue();
