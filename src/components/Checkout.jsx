@@ -6,7 +6,6 @@ import Flipmove from "react-flip-move";
 // Files Import
 import CheckoutProduct from "./CheckoutProduct";
 import { useStateValue } from "../Context/StateProvider";
-import Header from "./Header";
 
 // Styles Import
 import "../Styles/Checkout.css";
@@ -16,7 +15,6 @@ function Checkout() {
 
   return (
     <div>
-      <Header />
       <div className="checkout">
         <div className="checkout__left">
           <img

@@ -7,7 +7,6 @@ import { auth } from "../Database/FirebaseConfig";
 
 // Styles Import
 import "../Styles/Login.css";
-import Header from "./Header";
 
 function Login() {
   const history = useNavigate();

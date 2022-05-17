@@ -53,10 +53,15 @@ export default function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Header />} />
-        </Routes>
-        <Routes>
-          <Route path="/" element={<Home />} />
+          <Route
+            path="/"
+            element={
+              <>
+                <Header />
+                <Home />
+              </>
+            }
+          />
         </Routes>
         <Routes>
           <Route path="/login" element={<Login />} />
@@ -66,19 +71,35 @@ export default function App() {
             path="/payment"
             element={
               <>
-              <Header />
-              <Elements stripe={promise}>
-                <Payment />
-              </Elements>
+                <Header />
+                <Elements stripe={promise}>
+                  <Payment />
+                </Elements>
               </>
             }
           />
         </Routes>
         <Routes>
-          <Route path="/checkout" element={<Checkout />} />
+          <Route
+            path="/checkout"
+            element={
+              <>
+                <Header />
+                <Checkout />
+              </>
+            }
+          />
         </Routes>
         <Routes>
-          <Route path="/orders" element={<Orders />} />
+          <Route
+            path="/orders"
+            element={
+              <>
+                <Header />
+                <Orders />
+              </>
+            }
+          />
         </Routes>
       </BrowserRouter>
     </div>
