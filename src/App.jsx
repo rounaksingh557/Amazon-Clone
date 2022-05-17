@@ -10,6 +10,7 @@ import Home from "./components/Home";
 import Login from "./components/Login";
 import Checkout from "./components/Checkout";
 import Payment from "./components/Payment";
+import Orders from "./components/Orders";
 import { useStateValue } from "./Context/StateProvider";
 import { auth } from "./Database/FirebaseConfig";
 
@@ -64,14 +65,20 @@ export default function App() {
           <Route
             path="/payment"
             element={
+              <>
+              <Header />
               <Elements stripe={promise}>
                 <Payment />
               </Elements>
+              </>
             }
           />
         </Routes>
         <Routes>
           <Route path="/checkout" element={<Checkout />} />
+        </Routes>
+        <Routes>
+          <Route path="/orders" element={<Orders />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -10,7 +10,7 @@ app.use(cors({ origin: true }));
 app.use(express.json());
 
 app.get("/", (request, response) =>
-  response.status(200).send("Hello from Firebase!")
+  response.status(200).send("Amazon Clone API")
 );
 
 app.post("/payments/create", async (request, response) => {
@@ -19,6 +19,29 @@ app.post("/payments/create", async (request, response) => {
   const paymentIntent = await stripe.paymentIntents.create({
     amount: total,
     currency: "usd",
+    description: "Amazon Clone Payment",
+    shipping: {
+      name: "Rounak Singh",
+      address: {
+        line1: "510 Townsend St",
+        postal_code: "98140",
+        city: "San Francisco",
+        state: "CA",
+        country: "US",
+      },
+    },
+    payment_method_types: ["card"],
+  });
+
+  const customer = await stripe.customers.create({
+    name: "Rounak Singh",
+    address: {
+      line1: "510 Townsend St",
+      postal_code: "98140",
+      city: "San Francisco",
+      state: "CA",
+      country: "US",
+    },
   });
 
   response.status(201).send({
