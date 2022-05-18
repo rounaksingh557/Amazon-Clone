@@ -15,7 +15,6 @@ app.get("/", (request, response) =>
 
 app.post("/payments/create", async (request, response) => {
   const total = request.query.total;
-
   const paymentIntent = await stripe.paymentIntents.create({
     amount: total,
     currency: "usd",
