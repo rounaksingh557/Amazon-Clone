@@ -55,6 +55,8 @@
   </p>
 </div>
 
+<a href="https://github.com/rounaksingh557/Amazon-Clone/wiki"><h1>Please Read The Wiki Page And Look For a Note</h1></a>
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
