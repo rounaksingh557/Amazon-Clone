@@ -3,7 +3,7 @@ import React from "react";
 import moment from "moment";
 
 // Files Import
-import CheckOutProduct from "./CheckoutProduct";
+import OrderCheckoutProduct from "./OrderCheckOutProduct";
 
 // Styles Import
 import "../Styles/Order.css";
@@ -16,15 +16,15 @@ export default function Order({ order }) {
       <p className="order__id">
         <small>{order.id}</small>
       </p>
-      {order.data.basket?.map((item) => {
-        <CheckOutProduct
+      {order.data.basket?.map((item) => (
+        <OrderCheckoutProduct
           id={item.id}
           title={item.title}
           image={item.image}
           price={item.price}
           rating={item.rating}
-        />;
-      })}
+        />
+      ))}
     </div>
   );
 }

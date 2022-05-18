@@ -11,7 +11,7 @@ import { auth } from "../Database/FirebaseConfig";
 // Styles Import
 import "../Styles/Header.css";
 
-function Header() {
+export default function Header() {
   const [{ basket, user }, dispatch] = useStateValue();
 
   const handleAuthentication = () => {
@@ -75,5 +75,3 @@ function Header() {
     </div>
   );
 }
-
-export default Header;

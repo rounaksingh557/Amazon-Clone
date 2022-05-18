@@ -4,6 +4,7 @@ import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
 import { Link } from "react-router-dom";
 import CurrencyFormat from "react-currency-format";
 import { useNavigate } from "react-router-dom";
+import { Button } from "@material-ui/core";
 
 // Files Import
 import { useStateValue } from "../Context/StateProvider";
@@ -164,9 +165,13 @@ export default function Payment() {
                   thousandSeparator={true}
                   prefix={"$"}
                 />
-                <button disabled={processing || disabled || succeeded}>
+                <Button
+                  disabled={processing || disabled || succeeded}
+                  variant="contained"
+                  style={{ width: "100%", backgroundColor: "#f0c14b" }}
+                >
                   <span> {processing ? <p>Processing</p> : "Buy Now"} </span>
-                </button>
+                </Button>
               </div>
               {error && <div>{error}</div>}
             </form>

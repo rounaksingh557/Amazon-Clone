@@ -28,3 +28,11 @@
 .payment__address, .payment__items, .payment__details{
   flex: 0.8;
 }
+
+.payment__details > form { 
+    max-width: 400px;
+}
+
+.payment__details > h3 { 
+  padding-bottom: 20px;
+}
