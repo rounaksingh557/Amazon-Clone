@@ -153,11 +153,11 @@ You can add any feature you. Usage Instruction as per [MIT License](https://gith
 ### ✒️ - Doing
 
 - [✅] Project Setup.
-- [✒️] Work on Components.
-- [✒️] Complete UI.
-- [✒️] Make Document based on Component.
-- [✒️] Firebase and Backend Work.
-- [✒️] Upload The final Build.
+- [✅] Work on Components.
+- [✅] Complete UI.
+- [✅] Make Document based on Component.
+- [✅] Firebase and Backend Work.
+- [✅] Upload The final Build.
 
 See the [open issues](https://github.com/rounaksingh557/Amazon-Clone/issues) for a full list of proposed features (and known issues).
 
